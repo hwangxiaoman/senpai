@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>ARCHI | The Architects</title>
+      <link rel="icon" href="img/logo.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css" >
+      <script src="js/TweenMax.min.js"></script>
+</head>
+
+<body>
+
+      <div class="container-fluid">
+
+       <div class="main">
+             <div class="items">
+                   <div><br>
+                        <i class="fa fa-user"></i>
+                        <span>Account</span>
+                        <span class="fixed">Home</span>
+                   </div>
+                   <div>                       
+                         <img src="img/logo.png"> 
+
+                         <p class="lucky">
+                              2020
+                         </p>
+                   </div>
+             </div>
+             <div class="items">
+                  <img src="img/archiocl.jpg" class='img-responsive'>
+             </div>
+             <div class="items">Create with the heart, build with a mind.</div>
+             <div class="items">
+                 <div class='top-right'>
+                       <div> <i class="fa fa-search"></i></div>
+                       <div onclick="menu()">
+                        <i class="fa fa-bars"></i>
+                        <div class="menu-items" id="menu">
+                              <a href="home.html">Home</a>
+                              <a href="projects.html">Projects</a>
+                              <a href="costestimator.html">Cost Estimator</a>
+                              <a href="blogs.html">Blogs</a>
+                              <a href="aboutus.html">About Us</a>
+                              <a href="contactus.html">Contact Us</a>
+                              
+                        </div>
+                  </div> 
+                 </div>
+
+                  <div class="other">
+                        <h2>
+                        The Architects</h2>
+                  </div>
+                        <div class="fixed">
+                              Building
+                        </div>
+
+                  <ul class='social'>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                  </ul>
+             </div>
+       </div>
+ 
+      </div>
+ 
+   
+
+
+<script>
+   function menu(){
+           var x =  document.getElementById("menu");
+                  x.classList.toggle("active");
+   }
+</script>
+</body>
+
+</html>
